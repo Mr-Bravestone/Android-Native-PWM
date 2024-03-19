@@ -55,19 +55,18 @@ else
 ```
 ## 3. Export PWM Pin
 ```
-PCA9685().Export(pin) //pin = gpio number like 1264 Int Value
+PCA9685().Export(pin) 
 ```
-## 5. Set Direction
+## 5. Set Period
 ```
-IO().Direction(pin,"out") // for output
-IO().Direction(pin,"in") // for input
+PCA9685().Period(pin,1000000) // for example 1000000 nanoseconds
 ```
-## 6. Set Gpio Value
+## 6. Set DutyCycle
 ```
-IO().Write(pin,1) // for high like arduino digitalWrite
-IO().Write(pin,0) // for low like arduino digitalWrite
+PCA9685().DutyCycle(pin,500000) 
 ```
-# 7. Read Gpio Value
+# 7. Set Enable 
 ```
-IO().GetValue(pin) // Read Value from Gpio pin like arduino digitalRead  -  it returns 0 / 1
+PCA9685().Enable(pin,1) // for Enable 
+PCA9685().Enable(pin,0) // for Disable
 ```
