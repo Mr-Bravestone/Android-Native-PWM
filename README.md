@@ -1,5 +1,5 @@
 [![](https://jitpack.io/v/Mr-Bravestone/Android-Native-GPIO.svg)](https://jitpack.io/#Mr-Bravestone/Android-Native-GPIO)
-# Android-Native-GPIO
+# Android-Native-PWM
 Credit: Me
 
 
@@ -42,9 +42,9 @@ else
 	//STOP ROOT NOT FOUND
 }
 ```
-## 2. Detect Gpio Expander
+## 2. Detect PWM Expander
 ```
-if(PCF8575().getDeviceStatus().equals("DeviceAvailable"))
+if(PCA9685().getDeviceStatus())
 {
 	//Continue
 }
@@ -53,14 +53,9 @@ else
 	//Stop
 }
 ```
-## 3. Get Gpio Pins Range
+## 3. Export PWM Pin
 ```
-val gpio = PCF8575().getGPIOs() //gpio range for like 1264-1279 on my 16bit PCF8575 Expander
-println(gpio)
-```
-## 4. Export Gpio
-```
-IO().Export(pin) //pin = gpio number like 1264 Int Value
+PCA9685().Export(pin) //pin = gpio number like 1264 Int Value
 ```
 ## 5. Set Direction
 ```
