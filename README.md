@@ -1,9 +1,10 @@
-[![](https://jitpack.io/v/Mr-Bravestone/Android-Native-GPIO.svg)](https://jitpack.io/#Mr-Bravestone/Android-Native-GPIO)
+[![](https://jitpack.io/v/Mr-Bravestone/Android-Native-PWM.svg)](https://jitpack.io/#Mr-Bravestone/Android-Native-PWM)
 # Android-Native-PWM
 Credit: Me
 
 
-<img src ="https://github.com/Mr-Bravestone/Android-Native-GPIO/blob/master/art/Start.png" height = 150 alt ="Android-Native-SerialPort"/> <img src ="https://github.com/Mr-Bravestone/Android-Native-GPIO/blob/master/art/ListGpio.png" height = 150 alt ="Android-Native-SerialPort"/> <img src ="https://github.com/Mr-Bravestone/Android-Native-GPIO/blob/master/art/GpioControlOn.png" height = 150 alt ="Android-Native-SerialPort"/> <img src ="https://github.com/Mr-Bravestone/Android-Native-GPIO/blob/master/art/GpioControlOff.png" height = 150 alt ="Android-Native-SerialPort"/>
+<img src ="https://github.com/Mr-Bravestone/Android-Native-PWM/blob/master/art/pwm_anim.gif" height = 150 alt ="Android-Native-SerialPort"/>
+
 
 
 
@@ -24,9 +25,9 @@ Credit: Me
 ```
 dependencies {
     //For Java.
-    implementation 'com.github.Mr-Bravestone:Android-Native-GPIO:V1.0.1'
+    implementation 'com.github.Mr-Bravestone:Android-Native-PWM:V1.0.0'
     //For Kotlin.
-    implementation("com.github.Mr-Bravestone:Android-Native-GPIO:V1.0.1")
+    implementation("com.github.Mr-Bravestone:Android-Native-PWM:V1.0.0")
 }
 ```
 ## 1. Check Root Ability
