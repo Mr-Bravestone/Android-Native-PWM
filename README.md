@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/Mr-Bravestone/Android-Native-GPIO.svg)](https://jitpack.io/#Mr-Bravestone/Android-Native-GPIO)
+[![](https://jitpack.io/v/Mr-Bravestone/Android-Native-PWM.svg)](https://jitpack.io/#Mr-Bravestone/Android-Native-PWM)
 # Android-Native-PWM
 Credit: Me
 
@@ -25,9 +25,9 @@ Credit: Me
 ```
 dependencies {
     //For Java.
-    implementation 'com.github.Mr-Bravestone:Android-Native-GPIO:V1.0.1'
+    implementation 'com.github.Mr-Bravestone:Android-Native-PWM:V1.0.0'
     //For Kotlin.
-    implementation("com.github.Mr-Bravestone:Android-Native-GPIO:V1.0.1")
+    implementation("com.github.Mr-Bravestone:Android-Native-PWM:V1.0.0")
 }
 ```
 ## 1. Check Root Ability
