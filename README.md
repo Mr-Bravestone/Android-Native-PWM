@@ -4,7 +4,7 @@ Credit: Me
 
 
 <img src ="https://github.com/Mr-Bravestone/Android-Native-PWM/blob/master/art/pwm_anim.gif" height = 150 alt ="Android-Native-SerialPort"/>
-![](https://github.com/Mr-Bravestone/Android-Native-GPIO/blob/master/art/pwm_anim.gif)
+
 
 
 
