@@ -3,7 +3,7 @@
 Credit: Me
 
 
-<img src ="https://github.com/Mr-Bravestone/Android-Native-GPIO/blob/master/art/Start.png" height = 150 alt ="Android-Native-SerialPort"/> <img src ="https://github.com/Mr-Bravestone/Android-Native-GPIO/blob/master/art/ListGpio.png" height = 150 alt ="Android-Native-SerialPort"/> <img src ="https://github.com/Mr-Bravestone/Android-Native-GPIO/blob/master/art/GpioControlOn.png" height = 150 alt ="Android-Native-SerialPort"/> <img src ="https://github.com/Mr-Bravestone/Android-Native-GPIO/blob/master/art/GpioControlOff.png" height = 150 alt ="Android-Native-SerialPort"/>
+<img src ="https://github.com/Mr-Bravestone/Android-Native-GPIO/blob/master/art/pwm_anim.gif" height = 150 alt ="Android-Native-SerialPort"/>
 
 
 
